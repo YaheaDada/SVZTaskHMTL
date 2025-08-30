@@ -1,0 +1,193 @@
+body {
+  background-color: black;
+}
+div {
+  color: white;
+}
+h1 {
+  color: white;
+}
+
+h3 {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  color: white;
+  rotate: -90deg;
+}
+
+div p {
+  width: 416.92px;
+  border: 1px solid black;
+  color: white;
+}
+
+.navBar {
+  color: white;
+  font-size: large;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 10px;
+  gap: 35px;
+  list-style: none;
+}
+
+.ver {
+  color: white;
+  font-size: large;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 35px;
+}
+
+.rectangle1 {
+  height: 62.75px;
+  width: 280.15px;
+  background-color: #555;
+  rotate: -20deg;
+}
+.rectangle2 {
+  height: 62.75px;
+  width: 280.15px;
+  background-color: #555;
+  rotate: 20deg;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border: 178px solid transparent;
+  border-top: 0;
+  border-bottom: 300px solid #60fdf4;
+}
+
+/* ! Table  shapes and attributes */
+table {
+  width: 1152;
+  height: 705.02;
+  color: white;
+  /* border: 1px solid; */
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+}
+
+td {
+  /* border: 1px solid; */
+  border-left: 1px solid;
+  border-color: white;
+  padding: 50px;
+  text-align: left;
+}
+th {
+  padding: 50px;
+  border-left: 1px solid;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  transform: translateY(-10px);
+  background-color: #fc72ff;
+}
+.circle {
+  height: 81px;
+  width: 81px;
+  background-color: #4cace1;
+  border-radius: 50%;
+}
+.circlesmall {
+  height: 37.42px;
+  width: 37.42px;
+  background-color: #4cace1;
+  border-radius: 50%;
+}
+.circlesmallyellow {
+  height: 20px;
+  width: 20px;
+  transform: translateX(80px);
+
+  background-color: #ffd526;
+  border-radius: 50%;
+}
+.semi-Circle {
+  height: 30px;
+  width: 60px;
+  transform: translateX(50px);
+
+  border-radius: 150px 150px 0 0;
+  background-color: #63ec9a;
+}
+.semi-CircleOpisite {
+  height: 30px;
+  width: 60px;
+  transform: translateX(60px);
+  border-radius: 0 0 150px 150px;
+  background-color: #63ec9a;
+}
+
+.parent-element {
+  display: [flex or grid];
+  height: 500px;
+  border: 1px solid #000;
+}
+.child-element {
+  margin: auto;
+}
+.trianglesmall1 {
+  width: 0;
+  height: 0;
+  transform: translateX(60px) rotate(90deg);
+  border: 30px solid transparent;
+  border-top: 0;
+  border-bottom: 51px solid #60fdf4;
+}
+.trianglesmall2 {
+  width: 0;
+  height: 0;
+  transform: translateX(79px) rotate(16deg);
+  border: 30px solid transparent;
+  border-top: 0;
+  border-bottom: 51px solid #60fdf4;
+}
+.trianglesmall3 {
+  width: 0;
+  height: 0;
+  border: 30px solid transparent;
+  transform: translateY(-10px) rotate(55deg);
+  border-top: 0;
+  border-bottom: 51px solid #60fdf4;
+}
+.trianglesmall4 {
+  width: 0;
+  height: 0;
+  transform: translateY(-39px) translateX(120px) rotate(20deg);
+  border: 30px solid transparent;
+  border-top: 0;
+  border-bottom: 51px solid #60fdf4;
+}
+/* ?============================== */
+
+.Cardsection {
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.card{
+    padding: 100px;
+}
+
+.cardoffset{
+    transform: translateY(129px)
+}
+.bigcontainer{
+  /* margin-left: 200px; */
+  /* margin: 0 auto; */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 150px;
+
+
+}
